@@ -9,6 +9,7 @@
 [@Po0411](https://github.com/Po0411), [@jungkko](https://github.com/jungkko)
 
 ## 1.룰렛게임 제작
+>간단한 룰렛게임을 제작 합니다
 
 ## 2.랜덤 뽑기
 
