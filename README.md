@@ -5,7 +5,6 @@
 
 
 ## 1.룰렛게임 제작
-https://whgkfkd.tistory.com/53
 
 ## 2.랜덤 뽑기
 
