@@ -11,7 +11,7 @@
 ## 1.룰렛게임 제작
 >간단한 룰렛게임을 제작 합니다
 
-사용 방법은 해당 블로그를 눌러 확인해 주세요 ➡ [블로그](https://whgkfkd.tistory.com/53)<br>
+사용 방법은 해당 블로그를 눌러 확인해 주세요 ➡ [블로그<code>**클릭**</code>](https://whgkfkd.tistory.com/53)<br>
 룰렛 게임 파일로 바로 이동 ➡ [룰렛 게임](https://github.com/Po0411/Unity_Start/tree/main/Assets/%EB%AF%B8%EB%8B%88%EA%B2%8C%EC%9E%84/1.%EB%A5%BC%EB%A0%9B)
 
 ## 2.랜덤 뽑기
