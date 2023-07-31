@@ -5,7 +5,7 @@ using UnityEngine;
 public class ObjectSpawner : MonoBehaviour
 {
     public GameObject objectToSpawn; // 생성할 오브젝트 프리팹
-    public float spawnInterval = 2f; // 오브젝트 생성 간격 (초)
+    public float spawnInterval = 1f; // 오브젝트 생성 간격 (초)
     public float minX = -8.8f; // x 좌표의 최소값
     public float maxX = 8.84f; // x 좌표의 최대값
     public float spawnY = 5f; // y 좌표
