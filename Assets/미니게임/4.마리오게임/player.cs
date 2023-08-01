@@ -26,7 +26,6 @@ public class player : MonoBehaviour
     {
         move();
         jump();
-        camera_move();
     }
     void move()//이동 함수
     {
@@ -78,7 +77,7 @@ public class player : MonoBehaviour
         }
     }
 
-    void camera_move()//카메라가 플레이어를 따라가게 만듬
+/*    void camera_move()//카메라가 플레이어를 따라가게 만듬
     {
          
         if (transform.position.y <=0)//플레이어의 y값이 0이거나 0보다 작다면
@@ -89,7 +88,7 @@ public class player : MonoBehaviour
         {
             camera_obj.transform.position = new Vector3(transform.position.x, transform.position.y + 1, -1);//카메라가 플레이어의 x값과 y값을 받아옴.
         }
-    }
+    }*/
     public void onclick()//클릭되었을 떄 발동 할 함수.(다시하기 버튼)
     {
         Time.timeScale = 1;//게임시간을 다시 흐르게 하고,

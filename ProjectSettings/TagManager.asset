@@ -10,8 +10,15 @@ TagManager:
   - arrive
   - plate
   - ball
+<<<<<<< Updated upstream
   - Ground
   - Enemy
+=======
+  - line
+  - top_line
+  - ded_line
+  - block
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
