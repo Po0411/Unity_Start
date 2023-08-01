@@ -4,13 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-<<<<<<< Updated upstream
   - Obstacle
-=======
   - grund
   - damge
   - arrive
->>>>>>> Stashed changes
+  - plate
+  - ball
   layers:
   - Default
   - TransparentFX
