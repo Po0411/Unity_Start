@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 public class Player_Controller : MonoBehaviour
 {
     public float jumpForce = 1f; // 점프 힘 조절 변수
     public float fastFallForce = 5f; // 빠르게 아래로 내려가는 힘
+    public GameObject game_over;
 
     private Rigidbody2D rb;
     private bool isJumping = false;
@@ -37,5 +39,18 @@ public class Player_Controller : MonoBehaviour
         {
             isJumping = false;
         }
+
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GameOver();
+            // 게임 오버 텍스트 활성화
+            game_over.SetActive(true);
+        }
+    }
+
+    void GameOver()
+    {
+        Time.timeScale = 0f;
     }
 }

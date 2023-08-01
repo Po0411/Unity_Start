@@ -11,6 +11,7 @@ TagManager:
   - plate
   - ball
   - Ground
+  - Enemy
   layers:
   - Default
   - TransparentFX
