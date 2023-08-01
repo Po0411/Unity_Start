@@ -3,22 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Obstacle
-  - grund
-  - damge
-  - arrive
-  - plate
-  - ball
-<<<<<<< Updated upstream
-  - Ground
-  - Enemy
-=======
-  - line
-  - top_line
-  - ded_line
-  - block
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
